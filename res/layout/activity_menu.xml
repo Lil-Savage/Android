@@ -4,14 +4,13 @@
     android:layout_height="match_parent">
 
     <LinearLayout
-        android:id = "@+id/add_menu_layout"
+        android:id = "@+id/activity_menu_layout"
         android:layout_width="match_parent"
         android:orientation="vertical"
         android:layout_height="match_parent">
 
         <EditText
-            android:id="@+id/data"
-            android:hint="AddData"
+            android:id="@+id/information"
             android:textColor="#6bfff7"
             android:textColorHint="#52afaa"
             android:textAlignment="center"
@@ -19,8 +18,15 @@
             android:layout_height="wrap_content"/>
 
         <Button
-            android:id="@+id/btn_add"
-            android:text="Add"
+            android:id="@+id/btn_back"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/btn_done"
+            android:text="Done"
             android:textAllCaps="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content" />
